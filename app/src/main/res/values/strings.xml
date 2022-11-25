@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">DocDocGo</string>
+    <string name="Start_of_app">Hello you,<br> Thanks for being patient...</br></string>
+    <string name="started_sub"><br><b>Login</b> if you already have an account</br><br><b> Register</b> to get started</br></string>
+    <string name="illustration"></string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="titleLogin">Login</string>
+    <string name="hintEmail">Enter your email or username</string>
+    <string name="hintPassword">Enter your password</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="i_don_t_have_an_account">
+        I don\'t have an account
+        <font color="#fff"><br>Register</br></font>
+    </string>
+    <string name="register">Register</string>
+    <string name="fullName">Enter your full name</string>
+    <string name="emailRegister">Enter your email</string>
+    <string name="username">Username</string>
+    <string name="enterPassword">Enter a strong password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_have_an_account">
+               I have an account
+        <font color="#fff"><br>Login</br></font>
+    </string>
+    <string name="Dashboard">This is the dashboard</string>
+    <string name="log_out">Log out</string>
+    <string name="be_patient_mambo_bado">Be patient...mambo bado</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="profile">profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
