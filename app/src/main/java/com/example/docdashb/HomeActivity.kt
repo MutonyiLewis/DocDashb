@@ -35,7 +35,17 @@ class HomeActivity : AppCompatActivity() {
             when(menuItem.itemId){
                 R.id.topbar -> {
                     Toast.makeText(this, "Menu clicked",Toast.LENGTH_SHORT).show()
+                    auth = FirebaseAuth.getInstance()
+                    binding.topbar.setOnClickListener {
+                        auth.signOut()
+                        Intent(this,LoginActivity::class.java).also {
+                        it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                        startActivity(it)
+                        Toast.makeText(this,"You are logged out", Toast.LENGTH_SHORT).show()
+            }
+                    }
                     true
+
 
                 }
 
